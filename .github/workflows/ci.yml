@@ -26,4 +26,4 @@ jobs:
           context: ./MySkillTracker/backend   # 👈 folder
           file: ./MySkillTracker/backend/Dockerfile  # 👈 file
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/MySkillTracker-backend:sumit
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/myskilltracker-backend:sumit
