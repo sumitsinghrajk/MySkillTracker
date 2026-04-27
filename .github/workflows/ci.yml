@@ -1,4 +1,4 @@
-name: TWS CI Workflow
+name: Sumit CI Workflow
 
 on:
     push:
