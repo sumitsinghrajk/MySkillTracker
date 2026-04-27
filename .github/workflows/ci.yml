@@ -23,7 +23,7 @@ jobs:
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v7
         with:
-          context: ./myskilltracker/backend   # 👈 folder
-          file: ./myskilltracker/backend/Dockerfile  # 👈 file
+          context: ./MySkillTracker/backend   # 👈 folder
+          file: ./MySkillTracker/backend/Dockerfile  # 👈 file
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/skillpulse-backend:sumit
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/MySkillTracker-backend:sumit
